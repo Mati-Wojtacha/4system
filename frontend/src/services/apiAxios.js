@@ -56,7 +56,6 @@ export const api = {
                     url += `&sortCriteria=${criteria.key}:${criteria.direction}`;
                 });
             }
-            console.log(url);
 
             return await apiAxios.get(url);
         } catch (error) {
