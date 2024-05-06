@@ -22,10 +22,10 @@ public class User extends BaseEntity {
 
     private String login;
 
-    public User(Long id, String name, String surname, String login) {
-        super(id);
-        this.name = name;
-        this.surname = surname;
-        this.login = login;
-    }
+//    public User(Long id, String name, String surname, String login) {
+//        super(id);
+//        this.name = name;
+//        this.surname = surname;
+//        this.login = login;
+//    }
 }
