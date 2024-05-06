@@ -1,0 +1,24 @@
+@import "colors";
+
+.table {
+  .table-header {
+    tr {
+      th {
+        background-color: $dark-color;
+        font-weight: bold;
+
+        &.sortable {
+            cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .row {
+    background-color: $background-color;
+  }
+
+  .alt-row {
+    background-color: $alt-background-color;
+  }
+}

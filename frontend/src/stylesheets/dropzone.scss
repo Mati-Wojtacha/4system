@@ -1,0 +1,19 @@
+.dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+}
+
+.dropzone p {
+    margin: 10px 0;
+}
+
+.dropzone em {
+    color: #666;
+}
+
+.dropzone p.selected-file {
+    margin-top: 20px;
+    font-weight: bold;
+}

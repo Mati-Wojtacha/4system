@@ -1,0 +1,57 @@
+@import "colors";
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: $primary-color;
+  color: white;
+  font-size: 18px;
+
+  .logo-container {
+    margin-right: 20px;
+  }
+
+  .menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      margin-right: 10px;
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: lighten($primary-color, 20%);
+      }
+
+      &.active {
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.App-logo {
+  width: 50px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
