@@ -54,7 +54,7 @@ volumes:
 ## Konfiguracja backendu
 
 1. Wybierz odpowiednią branch:
-    - `master` zawiera wersję aplikacji korzystającą z RestApi.
+    - `main` zawiera wersję aplikacji korzystającą z RestApi.
     - `Servlet` zawiera wersję aplikacji korzystającą z Java Servlet.
 2. Przejdź do katalogu projektu (backend).
 3. Upewnij się, że baza danych MySQL jest zainstalowana i uruchomiona.
