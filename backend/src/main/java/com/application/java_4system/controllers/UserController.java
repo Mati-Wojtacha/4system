@@ -24,7 +24,7 @@ public final class UserController {
 
     @GetMapping("/list")
     public ResponseEntity<?> getAllUsersSorted(SearchSortPaginationConfig searchSortPaginationConfig) {
-        if (searchSortPaginationConfig == null) {
+        if (searchSortPaginationConfig == null){
             return ResponseEntity.badRequest().body("searchSortPaginationConfig is required");
         }
 

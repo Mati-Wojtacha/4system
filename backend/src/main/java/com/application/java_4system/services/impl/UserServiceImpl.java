@@ -48,7 +48,6 @@ public final class UserServiceImpl extends CrudServiceBase<User, Long, UserRepos
             }
         }
         response.setData(users);
-
         return response;
     }
 
