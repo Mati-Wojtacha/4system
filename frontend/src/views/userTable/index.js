@@ -18,7 +18,6 @@ const Index = () => {
     const {handleRequestError} = useSnackbar();
 
     const fetchData = useCallback(() => {
-        console.log(page);
         setLoading(true);
         const params = {
             page: page,
