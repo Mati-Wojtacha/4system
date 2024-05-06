@@ -55,7 +55,7 @@ volumes:
 ## Backend Setup
 
 1. Choose the appropriate branch:
-   - `master` branch contains the version of the application using RestApi.
+   - `main` branch contains the version of the application using RestApi.
    - `Servlet` branch contains the version of the application using Java Servlet.
 2. Navigate to the project directory (backend).
 3. Ensure that MySQL database is installed and running.
