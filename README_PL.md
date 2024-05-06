@@ -61,7 +61,7 @@ volumes:
 4. Wykonaj polecenie maven `mvn clean install`, aby zbudować projekt.
 5. Uruchom aplikację z poziomu swojego środowiska IDE lub użyj polecenia `mvn spring-boot:run`.
 6. Aplikacja będzie dostępna pod adresem `http://localhost:8080`.
-7. Eksploruj dokumentację API i testuj punkty końcowe za pomocą interfejsu Swagger UI pod adresem http://localhost:8080/swagger-ui.html.
+7. Testuj punkty końcowe za pomocą interfejsu Swagger UI pod adresem http://localhost:8080/swagger-ui.html.
 
 ## Konfiguracja frontendu
 
