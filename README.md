@@ -29,7 +29,7 @@ User List View:
 
 ## Database
 This application uses MySQL as the database. Below is the configuration for the database to create in Docker.
-If you have MySQL installed on your system, create a database with the name: `java_4system`, user: `user`,
+If you have MySQL installed on your system, create a database with the name: `user_management`, user: `user`,
 and password: `password`, or modify it in the `application.properties` file.
 
 ```yaml
@@ -39,7 +39,7 @@ services:
     image: mysql:latest
     container_name: mysql_database
     environment:
-      MYSQL_DATABASE: java_4system
+      MYSQL_DATABASE: user_management
       MYSQL_USER: user
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password
