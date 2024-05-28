@@ -1,10 +1,10 @@
 package com.application.crud;
 
-import com.application.java_4system.models.BaseEntity;
-import com.application.java_4system.payload.requests.SearchSortPaginationConfig;
-import com.application.java_4system.payload.requests.SortCriteria;
-import com.application.java_4system.payload.responses.PagingSortResponse;
-import com.application.java_4system.repository.SearchSpecifications;
+import com.application.user_management.models.BaseEntity;
+import com.application.user_management.payload.requests.SearchSortPaginationConfig;
+import com.application.user_management.payload.requests.SortCriteria;
+import com.application.user_management.payload.responses.PagingSortResponse;
+import com.application.user_management.repository.SearchSpecifications;
 import org.springframework.data.jpa.domain.Specification;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

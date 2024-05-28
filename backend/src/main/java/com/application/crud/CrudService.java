@@ -1,7 +1,7 @@
 package com.application.crud;
 
-import com.application.java_4system.payload.requests.SearchSortPaginationConfig;
-import com.application.java_4system.payload.responses.PagingSortResponse;
+import com.application.user_management.payload.requests.SearchSortPaginationConfig;
+import com.application.user_management.payload.responses.PagingSortResponse;
 
 import java.util.List;
 import java.util.Optional;
