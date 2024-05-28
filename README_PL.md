@@ -1,4 +1,4 @@
-# 4system Polska
+# ZarządzanieUżytkownikami
 
 ## Przegląd
 
@@ -28,7 +28,7 @@ Widok listy użytkowników:
 
 ## Baza danych
 Ta aplikacja używa MySQL jako bazy danych. Poniżej znajduje się konfiguracja bazy danych do utworzenia w Dockerze.
-Jeśli masz zainstalowany MySQL na swoim systemie, utwórz bazę danych o nazwie: `java_4system`, użytkownik: `user`,
+Jeśli masz zainstalowany MySQL na swoim systemie, utwórz bazę danych o nazwie: `user_management`, użytkownik: `user`,
 i hasło: `password`, lub zmodyfikuj je w pliku `application.properties`.
 
 ```yaml
@@ -38,7 +38,7 @@ services:
     image: mysql:latest
     container_name: mysql_database
     environment:
-      MYSQL_DATABASE: java_4system
+      MYSQL_DATABASE: user_management
       MYSQL_USER: user
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password
